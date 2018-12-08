@@ -6,12 +6,23 @@ html, body{
 	font-family: sans-serif;
 }
 
-/*  Hamburger Menu  */
+.navSection{
+	height: 100%;
+}
+
+/********************* Hamburger *********************/
+.hamburger{
+	display: flex;
+	align-self: center;
+	background-color: black;
+	margin-right: 15px;
+}
+
 .hamburger div{
     width: 25px;
     height: 2px;
     background-color: white;
-    margin: 2px auto;
+    margin: 3px auto;
 }
 
 .hamburgerClose{
@@ -22,20 +33,22 @@ html, body{
 	text-align: right;
 }
 
-/*  Nav bar  */
+/********************** Nav Bar **********************/
 .navSection{
-	height: 100%;
-}
-
-.navBar{
 	height: 100%;
 	background: url("../img/wraps.png") no-repeat center;
 	background-size: cover;
 }
 
+nav{
+	display: flex;
+	background-color: rgba(150, 150, 150, 0.8);
+	justify-content: space-between;
+}
+
 .logo img{
 	display: flex;
-	max-width: 150px;
+	max-width: 70px;
 	justify-content: center;
 	margin: 15px auto 5px auto;
 }
@@ -49,7 +62,6 @@ nav ul{
 nav ul a{
 	text-decoration: none;
 	color: white;
-	background-color: rgba(150, 150, 150, 0.8);
 	display: block;
 	padding: 5px 10px;
 	text-align: center;
@@ -76,6 +88,7 @@ ul.social{
 	display: none;
 }
 
+/********************** Larger Screens **********************/
 @media screen and (min-width: 768px){
 	nav{
 		display: flex;
