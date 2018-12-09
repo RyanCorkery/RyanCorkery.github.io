@@ -8,7 +8,6 @@ function openHamburger(){
 	document.querySelector(".links").style.display = "block";
 	document.querySelector(".social").style.display = "block";
 	document.querySelector(".hamburgerClose").style.display = "block";
-	// document.querySelector("nav").style.backgroundSize = "auto 100%";
 }
 
 function closeHamburger(){
@@ -16,7 +15,6 @@ function closeHamburger(){
 	document.querySelector(".links").style.display = "none";
 	document.querySelector(".social").style.display = "none";
 	document.querySelector(".hamburgerClose").style.display = "none";
-	// document.querySelector("nav").style.backgroundSize = "auto 100%";
 }
 
 
