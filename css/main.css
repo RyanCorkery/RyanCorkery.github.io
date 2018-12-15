@@ -16,18 +16,19 @@ html, body{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	background: url("../img/home.png") no-repeat center;
+	background: url("../img/latte.jpeg") no-repeat center;
 	background-size: cover;
 }
 
-.title{
+/*.title{
 	text-align: center;
 	margin: auto;
 	font-family: elianto;
 	font-size: 10vw;
+	color: white;
 	color: rgba(0,0,0,0.7);
 	text-shadow: 2px 2px white;
-}
+}*/
 
 
 /*****************************************************/
@@ -70,7 +71,7 @@ nav ul a{
 }
 
 nav a:hover{
-	color: rgba(35,250,215,0.7);
+	color: rgba(36,240,240,1);
 }
 
 .social a{
