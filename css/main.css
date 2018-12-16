@@ -259,8 +259,30 @@ footer div{
 /******************************************************/
 /****************** Catering Section ******************/
 /******************************************************/
+.orderForm{
+	/*background-color: red;*/
+	width: 75vw;
+	margin: 0 auto 15px;
+	/*text-align: right;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
-/******************************************************/
+.orderForm label{
+	/*background-color: green;*/
+}
+
+.orderForm input{
+	margin: 5px;
+	/*background-color: blue;*/
+	width: 200px;
+}
+
+.orderField{
+	height: 200px;
+}
+/*****************************************************
 /****************** Location Section ******************/
 /******************************************************/
 .map{
