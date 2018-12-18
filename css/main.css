@@ -260,27 +260,26 @@ footer div{
 /****************** Catering Section ******************/
 /******************************************************/
 .orderForm{
-	/*background-color: red;*/
-	width: 75vw;
-	margin: 0 auto 15px;
-	/*text-align: right;*/
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	margin: 0 auto 15px;
 }
-
-.orderForm label{
-	/*background-color: green;*/
+	
+.orderForm > *{
+	margin: 0 auto;
 }
 
 .orderForm input{
-	margin: 5px;
-	/*background-color: blue;*/
-	width: 200px;
+	width: 225px;
+	color: grey;
 }
 
-.orderField{
-	height: 200px;
+input.time{
+	width: 170px;
+}
+
+input.qty{
+	width: 30px;
 }
 /*****************************************************
 /****************** Location Section ******************/

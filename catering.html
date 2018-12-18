@@ -43,17 +43,47 @@
 		<section class="catering">
 			<h2><span>Catering</span></h2>
 
-			<p> Splash Juice Bar Cafe is the best option for your catering needs. Whether it be for a staff meeting, party, or any other occasion. We can provide wraps, sandwiches, salads, and more! Come see us in person in the Como Centre or give us a call at 03 9804 7869 to place an order today!
+			<p> Splash Juice Bar Cafe is the best option for your catering needs. Whether it be for a staff meeting, party, or any other occasion. We can provide wraps, sandwiches, salads, and more! Come see us in person in the Como Centre or give us a call at 9804 7869 to place an order today!
 
 			<p>Online orders are simple and hassle free, just fill out the form below with your information.</p>
 
 			<form class="orderForm">
-				<label for="name">Name: </label><input type="text" id="name"><br>
-				<label for="phone">Phone Number: </label><input type="text" id="phone"><br>
-				<label for="phone">Email: </label><input type="text" id="email"><br>
-				<label for="date">Catering Date: </label><input type="text" id="date"><br>
-				<label for="time">Catering Time: </label><input type="text" id="time"><br>
-				<label for="order">Order: </label><input class="orderField" type="text" id="order"><br>
+				<input type="text" value="Name" id="name" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Name';}"><br>
+				<input type="text" value="Phone Number" id="phone" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Phone Number';}"><br>
+				<input type="text" value="Email" id="email" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Email';}"><br>
+				<input type="text" value="Catering Date Day/Month" id="date" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Catering Date Day/Month';}"><br>
+				<div>
+					<input type="text" value="Catering Time" class="time" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Catering Time';}">
+					<select>
+						<option>AM</option>
+						<option>PM</option>
+					</select>
+				</div><br>
+				<div class="item">
+					<input type="text" value="Qty" class="qty" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Qty';}">
+					<select>
+						<option>Ham Cheese Tomato Focaccia</option>
+						<option>Chicken Avocado Focaccia</option>
+						<option>Chicken Schnitzel Focaccia</option>
+						<option>Chicken BLT Focaccia</option>
+						<option>Chicken Avocado Wrap</option>
+						<option>Chicken Tenderlion Wrap</option>
+						<option>Chicken Schnitzel Wrap</option>
+						<option>Pesto Chicken Wrap</option>
+						<option>Chicken Caesar Wrap</option>
+						<option>Veggie Wrap</option>
+						<option>Falafel Wrap</option>
+						<option>Chicken Caesar Salad</option>
+						<option>Chicken Schnitzel Salad</option>
+						<option>Pesto Chicken Salad</option>
+						<option>Superfood Salad</option>
+						<option>Detox Salad</option>
+						<option>Chicken Avocado Salad</option>
+						<option>Fruit Salad</option>
+					</select>
+				</div><br>
+				<input type="button" value="Add Item" onclick="addItem()"><br>
+				<input type="button" value="Continue">
 			</form>
 		</section>
 

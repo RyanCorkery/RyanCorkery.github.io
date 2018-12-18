@@ -17,20 +17,17 @@ function closeHamburger(){
 	document.querySelector(".hamburgerClose").style.display = "none";
 }
 
+function inputText(){
+	document.getElementById("name").value = "";
+}
 
+function addItem(){
+	alert("need to add to this function");
+}
 
+// onfocus="if(this.value == 'Default text') { this.value = ''; }" 
 
-
-
-
-
-
-
-
-
-
-
-
+// onblur="if(this.value == '') { this.value = 'Default text'; }">
 
 
 
