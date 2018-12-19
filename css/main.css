@@ -270,12 +270,20 @@ footer div{
 }
 
 .orderForm input{
-	width: 225px;
+	/*width: 225px;*/
+	width: 100%;
+}
+
+.orderForm input[type=text]{
 	color: grey;
 }
 
+.orderForm input[type=button]{
+	width: 200px;
+}
+
 input.time{
-	width: 170px;
+	/*width: 170px;*/
 }
 
 input.qty{
