@@ -1,3 +1,6 @@
+/******************************************************/
+/******************* Hamburger Menu *******************/
+/******************************************************/
 window.onload=function(){
 	document.getElementById("hamburgerBtn").addEventListener("click", openHamburger);
 	document.getElementById("hamburgerCloseBtn").addEventListener("click", closeHamburger);
@@ -17,19 +20,16 @@ function closeHamburger(){
 	document.querySelector(".hamburgerClose").style.display = "none";
 }
 
-function inputText(){
-	document.getElementById("name").value = "";
-}
-
+/******************************************************/
+/****************** Catering Section ******************/
+/******************************************************/
 function addItem(){
-	alert("need to add to this function");
+	var item = document.querySelector(".item");
+	var newItem = item.cloneNode(true);
+	newItem.querySelector(".qty").value = "Qty";
+	newItem.querySelector(".qty").style.color = "grey";
+	document.querySelector(".itemSection").appendChild(newItem);
 }
-
-// onfocus="if(this.value == 'Default text') { this.value = ''; }" 
-
-// onblur="if(this.value == '') { this.value = 'Default text'; }">
-
-
 
 
 

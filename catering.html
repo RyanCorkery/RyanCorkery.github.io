@@ -48,40 +48,35 @@
 			<p>Online orders are simple and hassle free, just fill out the form below with your information.</p>
 
 			<form class="orderForm">
-				<input type="text" value="Name" id="name" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Name';}"><br>
-				<input type="text" value="Phone Number" id="phone" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Phone Number';}"><br>
-				<input type="text" value="Email" id="email" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Email';}"><br>
-				<input type="text" value="Catering Date: Day/Month" id="date" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Catering Date Day/Month';}"><br>
-				<!-- <div>
-					<input type="text" value="Catering Time" class="time" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Catering Time';}">
-					<select>
-						<option>AM</option>
-						<option>PM</option>
-					</select>
-				</div> --><br>
-				<div class="item">
-					<input type="text" value="Qty" class="qty" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Qty';}">
-					<select>
-						<option>Ham Cheese Tomato Focaccia</option>
-						<option>Chicken Avocado Focaccia</option>
-						<option>Chicken Schnitzel Focaccia</option>
-						<option>Chicken BLT Focaccia</option>
-						<option>Chicken Avocado Wrap</option>
-						<option>Chicken Tenderlion Wrap</option>
-						<option>Chicken Schnitzel Wrap</option>
-						<option>Pesto Chicken Wrap</option>
-						<option>Chicken Caesar Wrap</option>
-						<option>Veggie Wrap</option>
-						<option>Falafel Wrap</option>
-						<option>Chicken Caesar Salad</option>
-						<option>Chicken Schnitzel Salad</option>
-						<option>Pesto Chicken Salad</option>
-						<option>Superfood Salad</option>
-						<option>Detox Salad</option>
-						<option>Chicken Avocado Salad</option>
-						<option>Fruit Salad</option>
-					</select>
-				</div><br>
+				<input type="text" value="Name" id="name" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Name';}" onchange="this.style.color='black'"><br>
+				<input type="text" value="Phone Number" id="phone" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Phone Number';}" onchange="this.style.color='black'"><br>
+				<input type="text" value="Email" id="email" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Email';}" onchange="this.style.color='black'"><br>
+				<input type="text" value="Catering Date: Day/Month" id="date" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Catering Date Day/Month';}" onchange="this.style.color='black'"><br>
+				<div class="itemSection">
+					<div class="item">
+						<input type="text" value="Qty" class="qty" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Qty';}" onchange="this.style.color='black'">
+						<select>
+							<option>Ham Cheese Tomato Focaccia</option>
+							<option>Chicken Avocado Focaccia</option>
+							<option>Chicken Schnitzel Focaccia</option>
+							<option>Chicken BLT Focaccia</option>
+							<option>Chicken Avocado Wrap</option>
+							<option>Chicken Tenderlion Wrap</option>
+							<option>Chicken Schnitzel Wrap</option>
+							<option>Pesto Chicken Wrap</option>
+							<option>Chicken Caesar Wrap</option>
+							<option>Veggie Wrap</option>
+							<option>Falafel Wrap</option>
+							<option>Chicken Caesar Salad</option>
+							<option>Chicken Schnitzel Salad</option>
+							<option>Pesto Chicken Salad</option>
+							<option>Superfood Salad</option>
+							<option>Detox Salad</option>
+							<option>Chicken Avocado Salad</option>
+							<option>Fruit Salad</option>
+						</select>
+					</div><br>
+				</div>
 				<input type="button" value="Add Item" onclick="addItem()"><br>
 				<input type="button" value="Continue">
 			</form>
