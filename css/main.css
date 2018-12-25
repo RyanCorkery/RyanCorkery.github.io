@@ -228,12 +228,12 @@ input.qty{
 	width: 30px;
 }
 
-.item{
-
-}
+/*.item{
+	margin-bottom: 5px;
+}*/
 
 select{
-	font-size: 14px;
+	font-size: 12px;
 }
 /******************************************************/
 /****************** Location Section ******************/
