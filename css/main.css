@@ -221,7 +221,7 @@ footer div{
 
 .orderForm input[type=button]{
 	width: 200px;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 input.qty{
@@ -233,7 +233,7 @@ input.qty{
 }*/
 
 select{
-	font-size: 12px;
+	font-size: 14px;
 }
 /******************************************************/
 /****************** Location Section ******************/
