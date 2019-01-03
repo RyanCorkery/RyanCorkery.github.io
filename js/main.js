@@ -31,7 +31,17 @@ function addItem(){
 	document.querySelector(".itemSection").appendChild(newItem);
 }
 
+function reviewOrder(){
+	window.location.href = "catering-review.html";
+}
 
+function editOrder(){
+	window.location.href = "catering.html";
+}
+
+function submitOrder(){
+	window.location.href = "catering-submit.html";
+}
 
 
 
