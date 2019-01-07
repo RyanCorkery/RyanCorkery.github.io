@@ -52,7 +52,9 @@
 				<input type="text" value="Name" id="name" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Name';}" onchange="this.style.color='black'"><br>
 				<input type="text" value="Phone Number" id="phone" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Phone Number';}" onchange="this.style.color='black'"><br>
 				<input type="text" value="Email" id="email" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Email';}" onchange="this.style.color='black'"><br>
-				<input type="date" value="Catering Date: Day/Month" id="date" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Catering Date Day/Month';}" onchange="this.style.color='black'"><br>
+				<div class="dateSection">
+					<label id="test" for="date">Catering Date: </label><input type="date" id="date">
+				</div><br>
 				<div class="itemSection">
 					<div class="item">
 						<input type="text" value="Qty" class="qty" onfocus="if(this.value == value){this.value = '';}" onblur="if(this.value == ''){this.value = 'Qty';}" onchange="this.style.color='black'">
@@ -75,7 +77,7 @@
 							<option>Superfood Salad</option>
 							<option>Detox Salad</option>
 							<option>Chicken Avocado Salad</option>
-							<option>Fruit Salad</option>
+							<option>Fruit Salad (1 serving)</option>
 						</select>
 					</div>
 				</div><br>
