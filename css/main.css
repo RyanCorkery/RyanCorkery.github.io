@@ -210,7 +210,7 @@ footer div{
 
 .orderForm input{
 	width: 100%;
-	max-width: 350px;
+	max-width: 380px;
 }
 
 input.qty{
@@ -244,10 +244,15 @@ select:focus{
 	display: flex;
 }
 
-#test{
-	padding-right: 5px;
-	width: 155px;
+.dateSection label{
+	width: 170px;
 	font-size: 16px;
+	align-self: center;
+}
+
+.dateSection img{
+	padding: 0 5px;
+	max-height: 25px;
 	align-self: center;
 }
 /******************************************************/
