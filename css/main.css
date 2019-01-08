@@ -245,6 +245,7 @@ select:focus{
 }
 
 .dateSection label{
+	background-color: red;
 	width: 170px;
 	font-size: 16px;
 	align-self: center;
