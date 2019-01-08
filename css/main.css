@@ -208,9 +208,9 @@ footer div{
 	margin: 0 auto;
 }
 
-.orderForm input{
+.orderForm > input{
 	width: 100%;
-	max-width: 400px;
+	max-width: 380px;
 }
 
 input.qty{
@@ -242,12 +242,10 @@ select:focus{
 
 .dateSection{
 	display: flex;
-	justify-content: center;
 }
 
 .dateSection label{
-	background-color: red;
-	width: 170px;
+	/*width: 170px;*/
 	font-size: 16px;
 	align-self: center;
 }
