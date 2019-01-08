@@ -209,8 +209,9 @@ footer div{
 }
 
 .orderForm > input{
-	width: 100%;
-	max-width: 380px;
+/*	width: 100%;
+	max-width: 380px;*/
+	width: 380px;
 }
 
 input.qty{
@@ -245,7 +246,6 @@ select:focus{
 }
 
 .dateSection label{
-	/*width: 170px;*/
 	font-size: 16px;
 	align-self: center;
 }
