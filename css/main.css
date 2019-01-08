@@ -242,6 +242,7 @@ select:focus{
 
 .dateSection{
 	display: flex;
+	justify-content: center;
 }
 
 .dateSection label{
