@@ -209,13 +209,12 @@ footer div{
 }
 
 .orderForm > input{
-/*	width: 100%;
-	max-width: 380px;*/
-	width: 380px;
+	width: 100%;
+	max-width: 380px;
 }
 
 input.qty{
-	width: 30px;
+	width: 28px;
 }
 
 select{
