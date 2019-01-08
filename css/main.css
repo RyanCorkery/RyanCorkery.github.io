@@ -322,6 +322,11 @@ select:focus{
 		width: 40%;
 		margin: 0 20px;
 	}
+
+	/*********************** Catering ***********************/
+	input.qty{
+		width: 30px;
+	}
 }
 
 
