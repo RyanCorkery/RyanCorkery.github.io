@@ -90,7 +90,7 @@ nav a:hover{
 .social a{
 	text-indent: -100000px;
 	background: url("../img/insta.png") no-repeat center;
-	background-size: 65%;
+	background-size: 80%;
 	max-width: 15px;
 	margin: auto;
 }
@@ -310,7 +310,7 @@ select:focus{
 	}
 
 	.social a{
-		background-size: 40%;
+		background-size: 60%;
 		padding-right: 40px;
 	}
 
